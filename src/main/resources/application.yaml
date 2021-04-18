@@ -1,0 +1,12 @@
+server:
+  port: 8080
+kafka:
+  bootstrapServerAddress: localhost:9092
+  consumerGroup: g1
+  topic:
+    test: test2
+spring:
+  kafka:
+    consumer:
+      group-id:
+
